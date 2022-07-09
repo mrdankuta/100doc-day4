@@ -14,3 +14,13 @@ pos2 = int(position[1])
 map[pos1 - 1][pos2 - 1] = "_x_"
 
 print(f"{map[0]}\n{map[1]}\n{map[2]}")
+
+
+# More Elegant Solution
+
+# position = input("Where do you want to put the treasure? ")
+
+# horizontal = int(position[0])
+# vertical = int(position[1])
+
+# map[vertical - 1][horizontal - 1] = "X"
